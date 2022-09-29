@@ -1,0 +1,26 @@
+:root {
+  --primary: #835b26;
+  --secondary: #5166c7;
+  --light: rgb(209, 253, 247);
+  --dark: #212525;
+}
+.h-color {
+  color: var(--primary);
+  font-weight: 500;
+}
+.header {
+  padding: 2rem;
+  background-color: var(--secondary);
+  color: var(--light);
+  text-align: center;
+}
+
+.galeria {
+  padding: 4rem 1rem;
+  min-height: calc(100vh - 245.94px);
+}
+
+footer {
+  background-color: var(--secondary);
+  padding: 2rem;
+}
